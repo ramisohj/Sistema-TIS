@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+</head>
+<body>
+<center><h3>NOMBRAMIENTOS DE DOCENTES</h3></center>
+
+<form name="formulario" method="post" action="">
+
+    <table align="center" cellspacing="8">
+
+        <tr>
+            <td><label>Nombre del Profesional :</label></td>
+            <td><input type="text" name="nombre"></td>
+        </tr>
+
+        <tr>
+            <td><label>Facultad :</label></td>
+            <td><input type="text" name="facultad"></br>
+            <td>
+        </tr>
+
+        <tr>
+            <td><label>Departamento :</label></td>
+            <td><input type="text" name="departamento"></td>
+        </tr>
+
+        <tr>
+            <td><label>Carrera :</label></td>
+            <td><select name="carrera">
+                <option value="biologia">BIOLOGIA</option>
+                <option value="civil">CIVIL</option>
+                <option value="electromecanica">ELECTROMECANICA</option>
+                <option value="industrial">INDUSTRIAL</option>
+                <option value="informatica">INFORMATICA</option>
+                <option value="mecanica">MECANICA</option>
+                <option value="sistemas">SISTEMAS</option>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td><label>Diplomado Academico :</label></td>
+            <td><input type="text" name="diplomado"></td>
+        </tr>
+
+        <tr>
+            <td><label>Titulo Profesional en provicion nacional :</label></td>
+            <td><input type="text" name="titulo"></td>
+        </tr>
+
+        <tr>
+            <td><label>Categoria del Nombramiento Solicitado :</label><br>
+                <input type="checkbox" name="categoria">INTERINO<br>
+                <input type="checkbox" name="categoria">INVITADO<br>
+                <input type="checkbox" name="categoria">ASISTENTE<br>
+                <input type="checkbox" name="categoria">ADJUNTO<br>
+                <input type="checkbox" name="categoria">CATEDRATICO
+            </td>
+        </tr>
+
+        <tr>
+            <td><label>Asignatura(s) : Hrs. Semana : </label></td>
+            <td><input type="text" name="asignatura_semana"></td>
+        </tr>
+
+        <tr>
+            <td><label>Asignatura(s) : Hrs. Mes : </label></td>
+            <td><input type="text" name="asignatura_mes"></td>
+        </tr>
+
+
+        <tr>
+            <td><label>Tiempo Dedicacion : </label></td>
+            <td><input type="radio" name="dedicacion" value="parcial"> Parcial
+                <input type="radio" name="dedicacion" value="exclusivo"> Exclusivo
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><label>Nombramiento a partir de : </label></td>
+            <td><input type="date" name="nombramiento"></td>
+        </tr>
+
+        <tr>
+            <td><label>Tiempo de duracion : </label></td>
+            <td><input type="text" name="duracion"></td>
+        </tr>
+
+        <tr>
+            <td><label>Fecha de solicitud : </label></td>
+            <td><input type="date" name="solicitud"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Aceptar">
+                <input type="submit" value="Salir"></td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>
